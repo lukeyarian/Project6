@@ -18,6 +18,8 @@ This app development process went a little bit better than last week, but I ende
 It should be mostly complete by this point maybe only missing a little bit (not entirely sure as I haven't been able to run the app for a while).
 
 My app file is not committing or pushing but everything else is???
+![image](https://github.com/lukeyarian/Project6/assets/70252777/66a8a547-17ba-4b2c-9a58-3e2ab3b2dc6c)
+
 
 
 ## License
