@@ -17,6 +17,8 @@ The following **required** functionality is completed:
 This app development process went a little bit better than last week, but I ended up with an app that didn't completely compile, and as I tried to debug, more and more errors just kept popping up until midnight. I will work more on it tomorrow when I have more time.
 It should be mostly complete by this point maybe only missing a little bit (not entirely sure as I haven't been able to run the app for a while).
 
+My app file is not committing or pushing but everything else is???
+
 
 ## License
 
