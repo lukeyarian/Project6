@@ -1,11 +1,23 @@
-# Project 6: Notes App
+# Project 7: Notes App (Grocery List)
 
-This application is meant to let the user take notes and save them.
+This application is meant to let the user take notes and save them. AS well as make a grocery list
 
 ## Functionality 
 
 The following **required** functionality is completed:
 
+
+Uses Firebase realtime database correctly 
+Correct layout for MainScreen
+Correct layout for RecyclerView
+Uses Firebase authentication 
+UserScreen is implemented correctly 
+Implements addValueEventListener to update the RecyclerView 
+Menu items and listeners 
+Shows Dialog to confirm 
+Initial prompt to login/signup 
+Application does not crash
+Appropriate comments
 *Code is mostly implemented, but riddled with errors that come one after another (no way to test)
 
 ## Video Walkthrough
@@ -14,10 +26,8 @@ The following **required** functionality is completed:
 
 ## Notes
 
-This app development process went a little bit better than last week, but I ended up with an app that didn't completely compile, and as I tried to debug, more and more errors just kept popping up until midnight. I will work more on it tomorrow when I have more time.
-It should be mostly complete by this point maybe only missing a little bit (not entirely sure as I haven't been able to run the app for a while).
-
-My app file is not committing or pushing but everything else is???
+This app was difficult because I never had the original Notes app properly working in the first place. Adding code on top of an already broken app was very difficult as I tried to do as much as the assignment asked without much way to test
+whether or not what I was doing was right. Overall, I did the best I could to follow the instructions provided in the PDF and from what we learned in class about the new aspects of the app.
 
 
 ## License
