@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 
 class NotesListFragment : Fragment() {
     private val viewModel: NoteViewModel by viewModels()
@@ -26,6 +27,7 @@ class NotesListFragment : Fragment() {
             }
         )
         val recyclerView: RecyclerView = view.findViewById(R.id.recyclerViewNotes)
+        recyclerView.layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
         recyclerView.adapter = adapter
         viewModel.allNotes.observe(viewLifecycleOwner) { notes ->
             adapter.submitList(notes)

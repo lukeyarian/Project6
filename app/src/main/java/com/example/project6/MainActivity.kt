@@ -2,6 +2,8 @@ package com.example.project6
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.widget.Toolbar
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
@@ -24,5 +26,22 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment)
         return navController.navigateUp() || super.onSupportNavigateUp()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
+        R.id.add_note -> {
+            true
+        }
+        R.id.user_screen -> {
+            true
+        }
+        else -> {
+            super.onOptionsItemSelected(item)
+        }
     }
 }
